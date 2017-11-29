@@ -2,13 +2,23 @@
   <div id="list" class="left_frame">
     <div>
       <p>------------- 算法 --------------</p>
-      <ul>
-        <li v-for="item in algo">
-          <a :href='item.url'>{{item.name}}</a>
-        </li>
-      </ul>
+        <ul>
+          <li v-for="item in algo">
+            <a :href='item.url'>{{item.name}}</a>
+          </li>
+        </ul>
       <p>------------- 数据结构 ---------</p>
+        <ul>
+          <li v-for="item in dataStructure">
+            <a :href='item.url'>{{item.name}}</a>
+          </li>
+        </ul>
       <p>------------- 问题集 -----------</p>
+        <ul>
+          <li v-for="item in problemSet">
+            <a :href='item.url'>{{item.name}}</a>
+          </li>
+        </ul>
     </div>
   </div>
 </template>
@@ -19,8 +29,14 @@ export default {
   data () {
     return {
       algo: [
+
+      ],
+      dataStructure: [
+
+      ],
+      problemSet: [
         {name: 'Peak Finding',
-         url: '/#/peak_finding'}
+          url: '/#/peak_finding'}
       ]
     }
   }

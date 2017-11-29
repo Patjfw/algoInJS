@@ -44,5 +44,6 @@ export default {
   .right_frame {
     float: left;
     height: 100%;
+    margin-left: 60px;
   }
 </style>
