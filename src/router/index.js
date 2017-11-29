@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Instruction from '@/components/Instruction'
-import PeakFinding from '@/components/algorithm/PeakFinding'
+import PeakFinding from '@/components/problemSet/PeakFinding'
 
 Vue.use(Router)
 
