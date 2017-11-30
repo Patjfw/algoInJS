@@ -29,7 +29,8 @@ export default {
   data () {
     return {
       algo: [
-
+        {name: 'Sort',
+          url: '/#/sort'}
       ],
       dataStructure: [
 
